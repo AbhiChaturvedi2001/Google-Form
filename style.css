@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.form-container{
+    padding: 2rem;
+    background-color: #eaeaea;
+}
+
+.user-name-details label{
+    display: block;
+    margin-top: .5rem;
+}
+.user-name-details input{
+    width: 100%;
+    margin-top: .5rem;
+    padding: .2rem;
+}
+
+fieldset{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.user-extra-details label{
+    display: block;
+    width: 100%;
+    margin-top: .5rem;
+}
+.user-extra-details input{
+    width: 100%;
+    margin-top: .5rem;
+    padding: .2rem;
+}
+textarea{
+    width: 100%;
+}

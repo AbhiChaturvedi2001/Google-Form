@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <form class="form-container" action="">
+        <section class="user-name-details">
+          <label>First Name</label>
+          <input type="text" id="first-name" />
+          <label>Middle Name</label>
+          <input type="text" id="middle-name" />
+          <label>Last Name</label>
+          <input type="text" id="last-name" />
+        </section>
+        <fieldset class="gender-info">
+          <legend>Gender</legend>
+          <label>Male</label>
+          <input type="radio" name="male" value="male" id="gender-male" />
+          <label>Female</label>
+          <input type="radio" name="female" value="female" id="gender-female" />
+        </fieldset>
+        <section class="user-extra-details">
+          <label for="">Mobile Number</label>
+          <input type="number" id="user-number" />
+          <label>Email</label>
+          <input type="email" id="user-mail" />
+          <label>Message us</label>
+          <textarea onkeypress="checkWord()" id="description-area" cols="40" rows="5"></textarea>
+        
+         Select Gender : <select name="genders" id="genders">
+            <option value="Select Gender">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Transgender">Transgender</option>
+          </select>
+        </section>
+
+        <button class="submit-btn">Submit</button>
+        <button class="reset-btn">Reset</button>
+      </form>
+    </main>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
